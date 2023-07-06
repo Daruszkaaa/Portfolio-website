@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 import { PrimeIcons } from 'primereact/api';
 
 import csslogo from "../assets/css3-logo.png";
@@ -55,6 +56,7 @@ export default function Home(){
                     </div>
                     </div>
             </section>
+            <Footer/>
         </main>
     
         </>
